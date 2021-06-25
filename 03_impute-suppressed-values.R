@@ -52,6 +52,6 @@ drugsAggStateProdnmeImputed <-
 
 setorder(drugsAggStateProdnmeImputed, year, state, quarter, gennme, prodnme)
 
-fwrite(x = drugsAggStateImputed, file = "./data/clean/05_imputed-stimulants-2015-2020-aggregate-by-state.csv", na = "")
-fwrite(x = drugsAggStateGenericImputed, file = "./data/clean/06_imputed-stimulants-2015-2020-aggregate-by-state-and-generic.csv", na = "")
-fwrite(x = drugsAggStateProdnmeImputed, file = "./data/clean/07_imputed-stimulants-2015-2020-aggregate-by-state-generic-and-brand.csv", na = "")
+fwrite(x = drugsAggStateImputed, file = "./data/clean/05_imputed-nsaids-2015-2020-aggregate-by-state.csv", na = "")
+fwrite(x = drugsAggStateGenericImputed, file = "./data/clean/06_imputed-nsaids-2015-2020-aggregate-by-state-and-generic.csv", na = "")
+fwrite(x = drugsAggStateProdnmeImputed, file = "./data/clean/07_imputed-nsaids-2015-2020-aggregate-by-state-generic-and-brand.csv", na = "")
